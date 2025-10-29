@@ -1,0 +1,14 @@
+**/build/
+**/bin/
+**/lib/
+**/dependencies/
+**/vcpkg_installed/
+**/cmake-build-*/
+**/out/
+**/dist/
+**/release/
+**/debug/
+**/.cache/
+**/.vs/
+**/.vscode/
+**/.idea/

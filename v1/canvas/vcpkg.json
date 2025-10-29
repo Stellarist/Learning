@@ -1,0 +1,9 @@
+{
+	"dependencies": [
+		"eigen3",
+		"glad",
+		"glfw3",
+		"stb",
+		"tinyobjloader"
+	]
+}

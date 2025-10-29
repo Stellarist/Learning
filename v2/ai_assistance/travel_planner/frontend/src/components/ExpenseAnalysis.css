@@ -1,0 +1,229 @@
+.expense-analysis-page {
+    min-height: 100vh;
+    background: #f6f8fb;
+    padding: 2rem;
+}
+
+.analysis-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.analysis-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.back-button {
+    background: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    color: #333;
+}
+
+.back-button:hover {
+    background: #f0f0f0;
+    transform: translateX(-2px);
+}
+
+.analysis-header h2 {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.analysis-content {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-filters {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.analysis-filters h3 {
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+}
+
+.filter-item {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.filter-label {
+    color: #666;
+    font-weight: 600;
+}
+
+.filter-value {
+    color: #333;
+}
+
+.analysis-result h3 {
+    color: #333;
+    font-size: 1.3rem;
+    margin: 0 0 1.5rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.analysis-text {
+    color: #333;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* Markdown 样式 */
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4 {
+    color: #333;
+    margin: 1.5rem 0 1rem 0;
+    font-weight: 600;
+}
+
+.markdown-body h1 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.markdown-body h2 {
+    font-size: 1.5rem;
+}
+
+.markdown-body h3 {
+    font-size: 1.3rem;
+}
+
+.markdown-body h4 {
+    font-size: 1.1rem;
+}
+
+.markdown-body p {
+    margin: 0 0 1rem 0;
+    line-height: 1.8;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.markdown-body li {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.markdown-body strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.markdown-body em {
+    color: #34495e;
+}
+
+.markdown-body code {
+    background: #f5f5f5;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.9em;
+    color: #e83e8c;
+}
+
+.markdown-body pre {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.markdown-body pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+}
+
+.markdown-body blockquote {
+    border-left: 4px solid #667eea;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #666;
+    font-style: italic;
+}
+
+.markdown-body table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.markdown-body th,
+.markdown-body td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.markdown-body th {
+    background: #f8f9fa;
+    font-weight: 600;
+}
+
+.markdown-body tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.no-analysis {
+    background: white;
+    border-radius: 12px;
+    padding: 4rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.no-analysis p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .expense-analysis-page {
+        padding: 1rem;
+    }
+
+    .analysis-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .analysis-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .analysis-content {
+        padding: 1.5rem;
+    }
+}
